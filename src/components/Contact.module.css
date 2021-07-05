@@ -69,7 +69,9 @@ textarea{
   text-transform: capitalize;
   margin:auto 0;
 }
-
+.invalid {
+  border-color:red;
+}
 
 @media screen and (max-width:760px){
   .container-flex{

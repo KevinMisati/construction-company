@@ -83,21 +83,21 @@ return (
         </div>
         <ul>
           <li>
-            Home
+            <a href="#home"> Home</a>
+           
             <div className={classes["nav-underline"]}></div>
           </li>
           <li>
-            About
+            <a href="#about"> About</a>
+
             <div className={classes["nav-underline"]}></div>
           </li>
           <li>
-            Projects
+            <a href="#projects"> Projects</a>
+
             <div className={classes["nav-underline"]}></div>
           </li>
-          <li>
-            Portifolio
-            <div className={classes["nav-underline"]}></div>
-          </li>
+          
         </ul>
       </nav>
     </header>

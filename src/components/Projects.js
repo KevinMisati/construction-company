@@ -7,7 +7,7 @@ import classes from './Projects.module.css'
 
  const Projects = () => {
     return (
-      <section className={classes["projects-container"]}>
+      <section id="projects" className={classes["projects-container"]}>
 
         <div className={classes.projects}>
           <div className="title">

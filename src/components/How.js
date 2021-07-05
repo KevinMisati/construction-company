@@ -3,15 +3,18 @@ import classes from "./How.module.css"
 
 import { InnovationIcon, EnvironmentIcon, SafetyIcon, CommunityIcon,QualityIcon } from "../../src/icons"
 
+
+ 
+
 const How = () => {
 return (
   <>
-    <article className={classes["how-container"]}>
+    <article id="about" className={classes["how-container"]}>
       <div className={classes.how}>
         <div className="title">
           <h2>How we make it possible</h2>
           <div className="underline"></div>
-          <p> lorem ipsum ipsum ipsum lorem</p>
+         
         </div>
         <div className={classes.hows}>
           <div className={classes["how-item"]}>

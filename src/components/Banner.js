@@ -1,6 +1,9 @@
 import React from 'react'
 import { AiFillPhone } from "react-icons/ai";
 export const Banner = () => {
+  const handleClick = () => {
+
+  }
     return (
       <section className="banner-container">
         <div className="banner">
@@ -10,7 +13,12 @@ export const Banner = () => {
             <AiFillPhone /> 07012345678
           </span>
           or
-          <button>Contact Us</button>
+
+         <a href="#contact"> <button>
+            Contact Us
+          </button>
+          </a>
+          
         </div>
       </section>
     );

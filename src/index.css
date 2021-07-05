@@ -23,6 +23,7 @@ button{
 }
 .title{
   text-align: center;
+  text-transform: capitalize;
 }
 ul{
   display: flex;
@@ -55,6 +56,20 @@ a{
   h2{
     font-size: 2rem;
   }
+}
+button{
+  text-transform: uppercase;
+  background: var(--lightRed);
+  color: var(--white);
+  border-radius: 5px;
+  border: 1px solid var(--white);
+  padding:.35rem .75rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+button:hover{
+  background: var(--redShed);
+  outline: none;
 }
 /*end of gneral styles */
 
@@ -89,6 +104,7 @@ main{
   justify-content: center;
   align-items: center;
   height: 100%;
+  text-align: center;
 }
 .home-container>div{
   display: flex;
@@ -103,7 +119,10 @@ main{
   margin:2rem ;
   padding:.5rem 1rem;
   text-transform: capitalize;
+  margin: 2rem auto;
 }
+
+
 @media screen and (min-width:776px){
   main{
     height: calc(100vh -75px);
@@ -111,7 +130,7 @@ main{
 }
 
 
-/* =================how=================== */
+
 
 /* ===============banner=============== */
 
@@ -132,27 +151,12 @@ main{
 .banner span,.banner button{
   margin: 1rem;
 }
-button{
-  text-transform: uppercase;
-  background: var(--lightRed);
-  color: var(--white);
-  border-radius: 5px;
-  border: 1px solid var(--white);
-  padding:.35rem .75rem;
-  font-size: 1.2rem;
-  outline: none;
-}
-button:hover{
-  background: var(--redShed);
-  outline: none;
+.banner button a{
+  text-decoration: none;
+  color: inherit;
 }
 
-/* =============================projects============ */
 
-/* ==========================testimonials===================== */
-
-
-/* =====================contacts============================ */
 
 
 

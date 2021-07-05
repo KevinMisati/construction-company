@@ -5,7 +5,7 @@ const Contacts = () => {
      e.preventDefault()
    }
     return (
-      <section className={classes["contacts-container"]}>
+      <section id="contact" className={classes["contacts-container"]}>
         <div className={classes.contacts}>
           <div className={classes.title}>
             <h2>Contacts Us</h2>

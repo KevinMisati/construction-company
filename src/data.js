@@ -6,7 +6,7 @@ const data = [
     },
     {
         id: 2,
-        img: "https://www.constructionkenya.com/wp-content/uploads/2017/12/Modern-Prefab-home.jpg",
+        img: "https://netstorage-tuko.akamaized.net/images/0fgjhshdtege27iic.jpg?imwidth=1080",
         link:"https://www.constructionkenya.com/3473/prefab-steel-houses-kenya/"
     },
     {
@@ -21,7 +21,7 @@ const data = [
     },
     {
         id: 5,
-        img: "https://www.constructionkenya.com/wp-content/uploads/2017/10/modern-style.jpg",
+        img: "https://www.hpdconsult.com/wp-content/uploads/2019/06/1079-A-79-RENDER-01.jpg",
         link:"https://www.constructionkenya.com/4978/house-styles-kenya/"
     },
     {

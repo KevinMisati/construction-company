@@ -19,7 +19,7 @@ const dummy_testimonials = [
     comment: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad.",
     img:"https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     name: "Karoki Lelei",
-    profession: "Web Developer"
+    profession: "Teacher"
   }
 ]
 

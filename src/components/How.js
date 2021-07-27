@@ -3,9 +3,6 @@ import classes from "./How.module.css"
 
 import { InnovationIcon, EnvironmentIcon, SafetyIcon, CommunityIcon,QualityIcon } from "../../src/icons"
 
-
- 
-
 const How = () => {
 return (
   <>

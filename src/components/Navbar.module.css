@@ -92,7 +92,7 @@ nav li:hover .nav-underline {
 @media screen and (max-width:760px){
   header{
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .nav-contacts-container{
@@ -100,7 +100,7 @@ nav li:hover .nav-underline {
 }
  nav {
   
-  height: calc(100vh - 75px);
+  height: calc(100vh - 25px);
   width: 100%;
  display: none;
   bottom: 0;
@@ -129,10 +129,6 @@ nav li:hover .nav-underline {
 .nav-toggle nav ul{
   flex-direction: column;
 }
-
-nav li:hover{
-  
-}
 .mobile-logo {
     cursor: pointer;
 }
@@ -145,7 +141,7 @@ nav li:hover{
   display: flex;
 }
 .mobile-nav{
-  height: 75px;
+  height: auto;
   background: var(--white);
   width: 100%;
   position: fixed;

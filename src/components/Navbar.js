@@ -9,7 +9,6 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import Logo  from "../images/logo.png"
 import classes from "./Navbar.module.css"
 
-
 const Navbar = () => {
   const [toggeleOpen,setToggleIsOpen] = useState(false)
    const toggleNav = ()=> {

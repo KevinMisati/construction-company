@@ -1,6 +1,5 @@
 .contacts-section{
-  padding-top: 90px;
-  margin-top: -90px;
+  
 }
 .contacts-container{
   width: 100%;
@@ -9,6 +8,8 @@
   justify-content: center;
   color: #fff;
   background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmpaKw1DOUCdU9pHZeUeX6EiIQ1uCtNTQIHg&usqp=CAU") center/cover fixed no-repeat;
+  padding-top: 90px;
+  margin-top: -90px;
 }
 .contacts{
   width: 100%;

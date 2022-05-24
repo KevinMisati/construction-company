@@ -3,6 +3,8 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  padding-top: 90px;
+  margin-top: -90px;
 }
 .contacts{
   width: 100%;

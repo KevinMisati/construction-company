@@ -1,6 +1,8 @@
 header{
   width: 100%;
   height: auto;
+  position: relative;
+  z-index: 100;
 }
 .nav-contacts-container{
   display: flex;
@@ -41,6 +43,12 @@ a {
   font-size: 25px;
   cursor: pointer;
   color: var(--green);
+}
+.nav-container{
+  position: sticky;
+  background: var(--white);
+  top: 0;
+   box-shadow: 1px 1px 2px   gray;
 }
 
 nav{

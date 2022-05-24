@@ -8,11 +8,16 @@ import Services from './components/Services'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
 import Testimonials from './components/Testimonials'
+import NavContacts from "./components/NavContacts"
+import "./App.css"
 
 function App() {
   return (
-    <div>
+  <>
+    <NavContacts />
+    <header>
       <Navbar />
+    </header>
       <Home />
       <How />
       <Banner />
@@ -21,7 +26,7 @@ function App() {
       <Testimonials />
       <Contacts />
       <Footer />
-    </div>
+  </>
   )
 }
 

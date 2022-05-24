@@ -15,54 +15,14 @@ const Navbar = () => {
    setToggleIsOpen(!toggeleOpen)
     
   } 
+  const closeToggle = () => {
+    setToggleIsOpen(false)
+  }
   
 return (
   <div>
     <header className={toggeleOpen ? classes["nav-toggle"] : ""}>
-      <div className={classes["nav-contacts-container"]}>
-      <div className={classes["nav-contacts"]}>
-          <div className={classes["first-contacts"]}>
-            <span>
-              <AiFillPhone /> 07012345678
-            </span>
-            <span>
-              <MdEmail /> <i className={classes.email}>info@gmail.com</i>
-            </span>
-          </div>
-          <div className={classes["second-contacts"]}>
-            <ul>
-              <li>
-                <a href="https://construction-compan.netlify.app/">
-                  <span className={classes["nav-icons"]}>
-                    <AiFillFacebook />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://construction-compan.netlify.app/">
-                  <span className={classes["nav-icons"]}>
-                    <AiFillLinkedin />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://construction-compan.netlify.app/">
-                  <span className={classes["nav-icons"]}>
-                    <AiFillTwitterSquare />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://construction-compan.netlify.app/">
-                  <span className={classes["nav-icons"]}>
-                    <FaWhatsappSquare />
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+     
       <div className={classes["mobile-nav-container"]}>
         <div className={classes["mobile-nav"]}>
           <div className={classes["mobile-logo"]}>
@@ -76,29 +36,34 @@ return (
           </div>
         </div>
       </div>
-      <nav>
-        <div className={classes.logo}>
-          <img style={{width:"60px"}} src={Logo} alt="" />
-        </div>
-        <ul>
-          <li>
-            <a href="#home"> Home</a>
-           
-            <div className={classes["nav-underline"]}></div>
-          </li>
-          <li>
-            <a href="#about"> About</a>
+      <div className={classes["nav-container"]}>
+        <nav>
+          <div className={classes.logo}>
+            <img style={{ width: "60px" }} src={Logo} alt="" />
+          </div>
+          <ul>
+            <li onClick={closeToggle}>
+              <a href="#home"> Home</a>
 
-            <div className={classes["nav-underline"]}></div>
-          </li>
-          <li>
-            <a href="#projects"> Projects</a>
+              <div className={classes["nav-underline"]}></div>
+            </li>
 
-            <div className={classes["nav-underline"]}></div>
-          </li>
-          
-        </ul>
-      </nav>
+            <li onClick={closeToggle}>
+              <a href="#projects"> Projects</a>
+
+              <div className={classes["nav-underline"]}></div>
+            </li>
+
+            <li onClick={closeToggle}>
+              <a href="#contact"> Contacts</a>
+
+              <div className={classes["nav-underline"]}></div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      
     </header>
   </div>
 );

@@ -48,6 +48,7 @@ const Contacts = () => {
     }
    }
     return (
+      <div className="contacts-section">
       <section id="contact" className={classes["contacts-container"]}>
         <div className={classes.contacts}>
           <div className={classes.title}>
@@ -85,6 +86,7 @@ const Contacts = () => {
           </form>
         </div>
       </section>
+      </div>
     );
 }
 

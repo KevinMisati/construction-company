@@ -9,7 +9,7 @@
   color: #fff;
   background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmpaKw1DOUCdU9pHZeUeX6EiIQ1uCtNTQIHg&usqp=CAU") center/cover fixed no-repeat;
   padding-top: 90px;
-  margin-top: -90px;
+  margin-top: -30px;
 }
 .contacts{
   width: 100%;

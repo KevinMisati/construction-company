@@ -31,7 +31,7 @@ const Testimonials = () => {
           <div className="title">
             <h2>Testimonials</h2>
             <div className="underline"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <p>This are some of our clients testimonials.</p>
           </div>
           <div className={classes["testimonials-list"]}>
 

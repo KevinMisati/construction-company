@@ -162,6 +162,7 @@ nav li:hover .nav-underline {
 }
 .hurmbuger{
   cursor: pointer;
+  z-index: 100;
 
 }
 .mobile-logo{

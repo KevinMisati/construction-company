@@ -13,7 +13,7 @@ import classes from './Projects.module.css'
           <div className="title">
             <h2>Our Projects</h2>
             <div className="underline"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <p>Have a look at some of our projects.</p>
           </div>
           <div className={classes["projects-list"]}>
 

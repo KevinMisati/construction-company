@@ -54,7 +54,7 @@ const Contacts = () => {
           <div className={classes.title}>
             <h2>Contacts Us</h2>
             <div className="underline"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <p>We are here always for you.</p>
           </div>
           <form onSubmit={handleSubmit}>
             <div className={classes["container-flex"]}>

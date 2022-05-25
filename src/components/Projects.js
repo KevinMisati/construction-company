@@ -45,10 +45,10 @@ import ShowProject from "./ShowProject"
           </div>
         </div>
       </section>
-        { showProject && <ShowProject
+        {/* { showProject && <ShowProject
             img={img}
             closeImage={closeImage}
-         />}
+         />} */}
       </>
     );
 }

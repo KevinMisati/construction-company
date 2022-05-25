@@ -1,12 +1,24 @@
-import React from 'react'
-
-
+import React,{useState} from 'react'
 import data from "../data"
 import classes from './Projects.module.css'
+import ShowProject from "./ShowProject"
 
 
  const Projects = () => {
+   const [img,setImg] = useState("")
+   const [showProject,setShowProject] = useState(false)
+
+   const handleImgClicked = (img) => {
+      setImg(img)
+      console.log(img,"ing")
+      setShowProject(true)
+   }
+
+   const closeImage = () => {
+      setShowProject(false)
+   }
     return (
+      <>
       <section id="projects" className={classes["projects-container"]}>
 
         <div className={classes.projects}>
@@ -19,16 +31,25 @@ import classes from './Projects.module.css'
 
         {data.map(house => {
           return (
-            <div key={house.id} className={classes.project}>
-              <img src={house.img} alt="" />
-            </div>
+            <>
+              
+              <div key={house.id} className={classes.project}>
+                <img onClick={() => handleImgClicked(house.img)} src={house.img} alt="" />
+              </div>
+            </>
           )
-        })}
+        })
+        }
         
            
           </div>
         </div>
       </section>
+        { showProject && <ShowProject
+            img={img}
+            closeImage={closeImage}
+         />}
+      </>
     );
 }
 
